@@ -1,4 +1,5 @@
 import { Home } from '../pages/home';
+import { createBrowserHistory } from 'history';
 
 export const routes = [
   {
@@ -8,3 +9,5 @@ export const routes = [
     component: Home,
   },
 ];
+
+export const history = createBrowserHistory();
